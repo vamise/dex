@@ -14,7 +14,7 @@ const Title = styled.div`
 
 const SizeTitle = styled(Row)`
   padding: 16px 0 12px;
-  color: #434a59;
+  color: #004baf;
 `;
 
 const MarkPriceTitle = styled(Row)`
@@ -116,8 +116,8 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
     >
       <Title
         style={{
-          borderTop: '1px solid #00073D',
-          borderBottom: '1px solid #00073D',
+          borderTop: '1px solid #00071C',
+          borderBottom: '1px solid #00071C',
           padding: '12px 0 12px 16px',
           color: 'rgba(241, 241, 242, 0.75)',
           fontSize: 14,
@@ -130,7 +130,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           span={12}
           style={{
             textAlign: 'right',
-            color: '#004BAF',
+            color: '#1268db',
             opacity: 0.5,
             fontSize: 12,
           }}
@@ -142,7 +142,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           style={{
             textAlign: 'right',
             paddingRight: 20,
-            color: '#004BAF',
+            color: '#1268db',
             opacity: 0.5,
             fontSize: 12,
           }}
@@ -169,7 +169,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           span={12}
           style={{
             textAlign: 'right',
-            color: '#004BAF',
+            color: '#1268db',
             opacity: 0.5,
             fontSize: 12,
           }}
@@ -181,7 +181,7 @@ export default function Orderbook({ smallScreen, depth = 7, onPrice, onSize }) {
           style={{
             textAlign: 'right',
             paddingRight: 20,
-            color: '#004BAF',
+            color: '#1268db',
             opacity: 0.5,
             fontSize: 12,
           }}
@@ -281,8 +281,8 @@ const MarkPriceComponent = React.memo(
       <MarkPriceTitle
         justify="center"
         style={{
-          borderTop: '1px solid #00073D',
-          borderBottom: '1px solid #00073D',
+          borderTop: '1px solid #00071C',
+          borderBottom: '1px solid #00071C',
           fontSize: 16,
         }}
       >

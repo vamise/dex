@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 html,body{
-  background: linear-gradient(180deg, #001D47 0%, #00122B 100%);
+  background: linear-gradient(180deg, #000B1A 0%, #000812 100%);
 }
 input[type=number]::-webkit-inner-spin-button {
   opacity: 0;
@@ -28,19 +28,19 @@ input[type=number]:focus::-webkit-inner-spin-button {
   background: #5b5f67;
 }
 .ant-slider-track, .ant-slider:hover .ant-slider-track {
-  background-color: #004BAF;
+  background-color: #1268db;
   opacity: 0.75;
 }
 .ant-slider-track,
 .ant-slider ant-slider-track:hover {
-  background-color: #004BAF;
+  background-color: #1268db;
   opacity: 0.75;
 }
 .ant-slider-dot-active,
 .ant-slider-handle,
 .ant-slider-handle-click-focused,
 .ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open)  {
-  border: 2px solid #004BAF; 
+  border: 2px solid #1268db; 
 }
 .ant-table-tbody > tr.ant-table-row:hover > td {
   background: #273043;
@@ -52,10 +52,10 @@ input[type=number]:focus::-webkit-inner-spin-button {
   border-bottom: none;
 }
 .ant-divider-horizontal.ant-divider-with-text::before, .ant-divider-horizontal.ant-divider-with-text::after {
-  border-top: 1px solid #434a59 !important;
+  border-top: 1px solid #004BAF !important;
 }
 .ant-layout {
-    background: linear-gradient(180deg, #001D47 0%, #00122B 100%);
+    background: linear-gradient(180deg, #000B1A 0%, #000812 100%);
   }
   .ant-table {
     background: #212734;
@@ -77,15 +77,15 @@ input[type=number]:focus::-webkit-inner-spin-button {
 }
 
 @-webkit-keyframes highlight {
-  from { background-color: #004BAF;}
+  from { background-color: #1268db;}
   to {background-color: #1A2029;}
 }
 @-moz-keyframes highlight {
-  from { background-color: #004BAF;}
+  from { background-color: #1268db;}
   to {background-color: #1A2029;}
 }
 @-keyframes highlight {
-  from { background-color: #004BAF;}
+  from { background-color: #1268db;}
   to {background-color: #1A2029;}
 }
 .flash {

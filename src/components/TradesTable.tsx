@@ -11,7 +11,7 @@ const Title = styled.div`
 `;
 const SizeTitle = styled(Row)`
   padding: 20px 0 14px;
-  color: #434a59;
+  color: #004BAF;
 `;
 
 export default function PublicTrades({ smallScreen }) {
@@ -38,16 +38,16 @@ export default function PublicTrades({ smallScreen }) {
         style={{
           color: 'rgba(241, 241, 242, 0.75)',
           fontSize: 14,
-          borderBottom: '1px solid #00073D',
+          borderBottom: '1px solid #00071C',
           padding: '12px 0 12px 16px',
         }}
       >Recent Market trades</Title>
       <SizeTitle>
-        <Col span={8} style={{ textAlign: 'left', paddingRight: 20, color: '#004BAF', opacity: .6, fontSize: 12 }}>Price ({quoteCurrency}) </Col>
-        <Col span={8} style={{ textAlign: 'right', paddingRight: 20, color: '#004BAF', opacity: .6, fontSize: 12 }}>
+        <Col span={8} style={{ textAlign: 'left', paddingRight: 20, color: '#1268db', opacity: .6, fontSize: 12 }}>Price ({quoteCurrency}) </Col>
+        <Col span={8} style={{ textAlign: 'right', paddingRight: 20, color: '#1268db', opacity: .6, fontSize: 12 }}>
           Size ({baseCurrency})
         </Col>
-        <Col span={8} style={{ textAlign: 'right', paddingRight: 20, color: '#004BAF', opacity: .6, fontSize: 12 }}>
+        <Col span={8} style={{ textAlign: 'right', paddingRight: 20, color: '#1268db', opacity: .6, fontSize: 12 }}>
           Time
         </Col>
       </SizeTitle>
@@ -85,7 +85,7 @@ export default function PublicTrades({ smallScreen }) {
                     )
                   : trade.size}
               </Col>
-              <Col span={8} style={{ textAlign: 'right', color: '#434a59', fontSize: 12, }}>
+              <Col span={8} style={{ textAlign: 'right', color: '#004BAF', fontSize: 12, }}>
                 {trade.time && new Date(trade.time).toLocaleTimeString()}
               </Col>
             </Row>

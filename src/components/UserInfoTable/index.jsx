@@ -21,7 +21,7 @@ export default function Index() {
             width: '50%',
             textAlign: 'center',
             border: 'transparent',
-            borderBottom: activeKeyStr === 'orders' ? '2px solid #004BAF' : '',
+            borderBottom: activeKeyStr === 'orders' ? '2px solid #1268db' : '',
             background: 'transparent',
             fontSize: 14,
             fontStyle: 'normal',
@@ -30,7 +30,7 @@ export default function Index() {
               activeKeyStr === 'orders'
                 ? '#F1F1F2'
                 : // : 'rgba(241, 241, 242, 0.5)',
-                  '#004BAF',
+                  '#1268db',
             padding: '12px 0 12px',
             opacity: activeKeyStr === 'orders' ? 1 : 0.8,
           }}
@@ -45,12 +45,12 @@ export default function Index() {
             width: '50%',
             textAlign: 'center',
             border: 'transparent',
-            borderBottom: activeKeyStr === 'fills' ? '2px solid #004BAF' : '',
+            borderBottom: activeKeyStr === 'fills' ? '2px solid #1268db' : '',
             background: 'transparent',
             fontSize: 14,
             fontStyle: 'normal',
             fontWeight: 600,
-            color: activeKeyStr === 'fills' ? '#F1F1F2' : '#004BAF',
+            color: activeKeyStr === 'fills' ? '#F1F1F2' : '#1268db',
             padding: '12px 0 12px',
             opacity: activeKeyStr === 'fills' ? 1 : 0.8,
           }}
@@ -66,12 +66,12 @@ export default function Index() {
             textAlign: 'center',
             border: 'transparent',
             borderBottom:
-              activeKeyStr === 'balances' ? '2px solid #004BAF' : '',
+              activeKeyStr === 'balances' ? '2px solid #1268db' : '',
             background: 'transparent',
             fontSize: 14,
             fontStyle: 'normal',
             fontWeight: 600,
-            color: activeKeyStr === 'balances' ? '#F1F1F2' : '#004BAF',
+            color: activeKeyStr === 'balances' ? '#F1F1F2' : '#1268db',
             padding: '12px 0 12px',
             opacity: activeKeyStr === 'balances' ? 1 : 0.8,
           }}
@@ -87,12 +87,12 @@ export default function Index() {
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: activeKeyStr === 'fees' ? '2px solid #004BAF' : '',
+              borderBottom: activeKeyStr === 'fees' ? '2px solid #1268db' : '',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: activeKeyStr === 'fees' ? '#F1F1F2' : '#004BAF',
+              color: activeKeyStr === 'fees' ? '#F1F1F2' : '#1268db',
               padding: '12px 0 12px',
               opacity: activeKeyStr === 'fees' ? 1 : 0.8,
             }}
@@ -103,7 +103,7 @@ export default function Index() {
       </Row>
       <div
         style={{
-          border: '1px solid #00073D',
+          border: '1px solid #00071C',
           height: 400,
           borderBottom: '',
           padding: 16,

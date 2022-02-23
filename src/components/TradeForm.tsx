@@ -313,12 +313,12 @@ export default function TradeForm({
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: side === 'buy' ? '2px solid #004BAF' : '2px solid #00073D',
+              borderBottom: side === 'buy' ? '2px solid #1268db' : '2px solid #00071C',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'buy' ? '#004BAF' : '#F1F1F2',
+              color: side === 'buy' ? '#1268db' : '#F1F1F2',
               opacity: side === 'buy' ? 0.8 : .6,
               padding: '12px 0 0 0'
             }}
@@ -333,12 +333,12 @@ export default function TradeForm({
               width: '50%',
               textAlign: 'center',
               border: 'transparent',
-              borderBottom: side === 'sell' ? '2px solid #004BAF' : '2px solid #00073D',
+              borderBottom: side === 'sell' ? '2px solid #1268db' : '2px solid #00071C',
               background: 'transparent',
               fontSize: 14,
               fontStyle: 'normal',
               fontWeight: 600,
-              color: side === 'sell' ? '#004BAF' : '#F1F1F2',
+              color: side === 'sell' ? '#1268db' : '#F1F1F2',
               opacity: side === 'sell' ? 0.8 : .6,
               padding: '12px 0 0 0'
             }}
@@ -359,7 +359,7 @@ export default function TradeForm({
               height: 47,
               left: 0,
               top: 0,
-              background: '#00073D',
+              background: '#00071C',
               borderRadius: 4,
               paddingTop: 5,
               fontSize: 14
@@ -373,7 +373,7 @@ export default function TradeForm({
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#00073D', borderRadius: 4, }}
+              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#00071C', borderRadius: 4, }}
               suffix={
                 <span style={{ fontSize: 10, opacity: 0.5 }}>{quoteCurrency}</span>
               }
@@ -388,7 +388,7 @@ export default function TradeForm({
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#00073D', borderRadius: 4, }}
+              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#00071C', borderRadius: 4, }}
               suffix={
                 <span style={{ fontSize: 10, opacity: 0.5 }}>{baseCurrency}</span>
               }
@@ -403,7 +403,7 @@ export default function TradeForm({
             <Input
               type="number"
               bordered={false}
-              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#00073D', borderRadius: 4, }}
+              style={{ textAlign: 'right', paddingBottom: 8, height: 47, background: '#00071C', borderRadius: 4, }}
               suffix={
                 <span style={{ fontSize: 10, opacity: 0.5 }}>{quoteCurrency}</span>
               }
@@ -460,7 +460,7 @@ export default function TradeForm({
               marginTop: 20,
               height: 41,
               background: 'rgba(90, 196, 190, 0.3)',
-              border: '1px solid #004BAF',
+              border: '1px solid #1268db',
               opacity: 0.5,
               borderRadius: 4,
             }}

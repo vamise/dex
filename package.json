@@ -2,7 +2,7 @@
     "name": "fyfy-dex-ui",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://dex.fyfy.app/",
+    "homepage": "https://swap.fyfy.app/",
     "dependencies": {
         "@ant-design/icons": "^4.2.1",
         "@craco/craco": "^5.6.4",

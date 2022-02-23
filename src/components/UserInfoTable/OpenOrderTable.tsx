@@ -71,7 +71,7 @@ export default function OpenOrderTable({
   return (
     <Row>
       <Col span={24}>
-        <Row style={{fontSize: 14, color: '#004BAF', opacity: 0.5, paddingBottom: 16 }}>
+        <Row style={{fontSize: 14, color: '#1268db', opacity: 0.5, paddingBottom: 16 }}>
           <Col span={5} style={{textAlign: 'left', fontWeight: 'bold', textDecorationLine: 'underline' }}>Market</Col>
           <Col span={5} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}>Side</Col>
           <Col span={5} style={{textAlign: 'right', fontWeight: 'bold', textDecorationLine: 'underline' }}>Size</Col>
@@ -80,13 +80,13 @@ export default function OpenOrderTable({
         </Row>
         <div style={{ height: 350, overflowX: 'hidden' }}>
           {dataSource.map(({marketName, side, size, price, orderId }, i) => (
-            <Row key={i} style={{fontSize: 14, color: '#004BAF', paddingBottom: 16 }}>
+            <Row key={i} style={{fontSize: 14, color: '#1268db', paddingBottom: 16 }}>
               <Col span={5} style={{ textAlign: 'left' }}>{marketName}</Col>
               {/* <Col span={5} style={{ textAlign: 'right', color: 'rgba(90, 196, 190, 1)' }}>{side}</Col>
               <Col span={5} style={{ textAlign: 'right', color: 'rgba(90, 196, 190, 1)' }}>{size}</Col>
                */}
-              <Col span={5} style={{textAlign: 'right', color: '#004BAF' }}>{side}</Col>
-              <Col span={5} style={{textAlign: 'right', color: '#004BAF' }}>{size}</Col>
+              <Col span={5} style={{textAlign: 'right', color: '#1268db' }}>{side}</Col>
+              <Col span={5} style={{textAlign: 'right', color: '#1268db' }}>{size}</Col>
               <Col span={5} style={{textAlign: 'right' }}>{price}</Col>
               <Col span={4} style={{textAlign: 'right' }}>
                 <CancelButton

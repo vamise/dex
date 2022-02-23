@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
-  // color: linear-gradient(180deg, #001D47 0%, #00122B 100%);
+  // color: linear-gradient(180deg, #000B1A 0%, #000812 100%);
   background: transparent;
   font-weight: bold;
   cursor: pointer;
@@ -146,7 +146,7 @@ export default function TopBar() {
         return <Menu.Item key={item.title}><a href={item.link} target={item.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{item.title}</a></Menu.Item>
       } else {
         return <SubMenu key={item.title} title={item.title}>
-          {item.child.map(itemChild => <Menu.Item style={{background: "#001D47"}} key={itemChild.title}><a href={itemChild.link} target={itemChild.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{itemChild.title}</a></Menu.Item>)}
+          {item.child.map(itemChild => <Menu.Item style={{background: "#000B1A"}} key={itemChild.title}><a href={itemChild.link} target={itemChild.link.startsWith('/') ? '_self' : '_blank'} rel="noopener noreferrer">{itemChild.title}</a></Menu.Item>)}
         </SubMenu>
       }
     }

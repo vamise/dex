@@ -24,14 +24,14 @@ const RowBox = styled(Row)`
 `;
 
 const ActionButton = styled(Button)`
-  color: '#004BAF';
+  color: '#1268db';
   opacity: .75;
   font-size: 12px;
   display: 'inline-block';
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 4px;
-  border: 1px solid #004BAF, 0.5);
+  border: 1px solid #1268db, 0.5);
 `;
 
 export default function StandaloneBalancesDisplay() {
@@ -134,7 +134,7 @@ export default function StandaloneBalancesDisplay() {
       <div
        style={{
          width: '100%',
-         borderBottom: '1px solid #00073D',
+         borderBottom: '1px solid #00071C',
          fontSize: 14,
          paddingBottom: 12,
 
@@ -145,7 +145,7 @@ export default function StandaloneBalancesDisplay() {
       <div style={{ paddingRight: 10}}>
         <Row style={{
           marginTop: 16,
-          color: '#004BAF',
+          color: '#1268db',
           opacity: .8,
           fontSize: 12,
           textAlign: 'right',
@@ -166,12 +166,12 @@ export default function StandaloneBalancesDisplay() {
               <Row style={{
                 marginTop: 16,
                 fontSize: 12,
-                color: '#004BAF',
+                color: '#1268db',
                 textAlign: 'right',
-                borderBottom: '1px solid #00073D',
+                borderBottom: '1px solid #00071C',
                 paddingBottom: 18,
               }}>
-                <Col span={6} style={{ color: '#004BAF', opacity: .6, textAlign: 'left' }}>
+                <Col span={6} style={{ color: '#1268db', opacity: .6, textAlign: 'left' }}>
                   {currency}
                 </Col>
                 <Col span={9}>
@@ -230,7 +230,7 @@ export default function StandaloneBalancesDisplay() {
           rel="noopener noreferrer"
           style={{ color : 'rgb(173,175,184)',}}
         >
-        <div style={{ paddingTop: 16, fontSize: 12, color: '#004BAF', opacity: 0.8}}>
+        <div style={{ paddingTop: 16, fontSize: 12, color: '#1268db', opacity: 0.8}}>
             Learn more about DeFi and Solana here.
         </div>
       </a>
